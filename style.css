@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+*,body,html {
+
+    font-family: "Inter", sans-serif;
+
+}
+
+#box {
+
+    position: relative;
+
+    width: 440px;
+
+    display: none;
+
+}
+
+img {
+
+    width: 100%;
+
+}
+
+.battery1 {
+
+    position: absolute;
+
+    top:26.7px;
+
+    left:370.1px;
+
+    font-weight: 800;
+
+    font-size: 18px;
+
+    width:25px;
+
+    height:11px;
+
+    background: #eeeeee;
+
+    border-radius: 2px;
+
+}
+
+.battery2 {
+
+    position: absolute;
+
+    top:27.2px;
+
+    left:370px;
+
+    font-weight: 800;
+
+    font-size: 18px;
+
+    width:25px;
+
+    height:10px;
+
+    background: black;
+
+    border-radius: 3px;
+
+}
+
+.time {
+
+    position: absolute;
+
+    top:19px;
+
+    left:49px;
+
+    font-weight: 900;
+
+    font-size: 18px;
+
+    width:70px;
+
+    background: #eeeeee;
+
+}
+
+.monthly__users {
+
+    position: absolute;
+
+    top:80px;
+
+    left:152px;
+
+    font-weight: 550;
+
+    font-size: 13px;
+
+    background: #efefef;
+
+    width:185px;
+
+    color:#8e8e8e
+
+}
+
+.search__id {
+
+    position: absolute;
+
+    top:111px;
+
+    left:269px;
+
+    font-size: 18px;
+
+    font-weight: 550;
+
+    background: #e0ffc7;
+
+    color:#004ea5;
+
+    width:93px;
+
+    text-align: left;
+
+}
+
+.search__time {
+
+    position: absolute;
+
+    top:120px;
+
+    left:358px;
+
+    font-size: 11px;
+
+    font-weight: 550;
+
+    background: #e0ffc7;
+
+    color:#34a336;
+
+    width:50px;
+
+    text-align: center;
+
+}
+
+.search__result {
+
+    position: absolute;
+
+    top:150px;
+
+    left:20px;
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+    background: white;
+
+    color:#000;
+
+    width:300px;
+
+    height:480px;
+
+}
+
+.search__result span {
+
+    font-weight: 500;
+
+}
+
+.result__time {
+
+    position: absolute;
+
+    top:789px;
+
+    left:293px;
+
+    font-size: 11px;
+
+    font-weight: 550;
+
+    background: #ffffff;
+
+    color:#999999;
+
+    width:50px;
+
+    text-align: right;
+
+}
+
+.btn {
+
+    position: absolute;
+
+    top: 30;
+
+    left: 100px;
+
+    cursor: pointer;
+
+    background: crimson;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px;
+
+}
+
+input {
+
+    position: absolute;
+
+    buttom: 95px;
+
+    left: 380px;
+
+    width: 50px;
+
+    outline: none;
+
+}
+
+label {
+
+    position: absolute;
+
+    buttom: 95px;
+
+    left: 300px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
