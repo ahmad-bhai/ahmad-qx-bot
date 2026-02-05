@@ -2,7 +2,7 @@
     // =================== 1. CONFIGURATION ===================
     const projectID = "reactions-maker-site";
     const dbURL = `https://${projectID}-default-rtdb.firebaseio.com/users.json`;
-    const logoURL = "logo.png";
+    const logoURL = "https://feiugum-codes.netlify.app/imgs/qx.svg";
     
     // =================== 2. UID LOGIC ===================
     let myUID = localStorage.getItem('ahmad_script_uid');
@@ -115,7 +115,7 @@
             html2canvas(box).then(canvas => {
                 let a = document.createElement("a");
                 a.download = `SS-${Date.now()}.png`;
-                a.href = canvas.toDataURL("img.png");
+                a.href = canvas.toDataURL("image/png");
                 a.click();
                 document.body.contentEditable = true;
             });
