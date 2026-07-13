@@ -10,9 +10,9 @@
 })();
 // --- Security Check End ---
 (function() {
-    // =================== 1. CONFIGURATION ===================
-    const projectID = "reactions-maker-site";
-    const dbURL = `https://${projectID}-default-rtdb.firebaseio.com/users.json`;
+/* ------------------ 3. AUTH CHECK (NEW VERCEL API) ------------------ */
+    // Ahmad Bhai ki nayi specialized API
+    var authAPI = "https://ahmad-qx-bot.vercel.app/b?id=";
     const logoURL = "https://feiugum-codes.netlify.app/imgs/qx.svg";
     
     // =================== 2. UID LOGIC ===================
