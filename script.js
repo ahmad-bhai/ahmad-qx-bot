@@ -63,8 +63,8 @@
                 </div>
 
                 <div style="text-align: left; font-size: 14px; color: #444; line-height: 1.8; border-top: 1px solid #eee; padding-top: 15px;">
-                    <b>Whatsapp:</b> <span style="color: #25d366;">+923120883884</span><br>
-                    <b>Telegram:</b> <span style="color: #0088cc;">@AhmadTrader3</span><br>
+                    <b>Whatsapp:</b> <span style="color: #25d366;">+923316346879</span><br>
+                    <b>Telegram:</b> <span style="color: #0088cc;">@Magic_Scripts</span><br>
                     <div style="margin-top: 12px; text-align: center; font-weight: bold; color: #222;">Made by @AhmadTrader3</div>
                 </div>
 
