@@ -23,24 +23,20 @@
     }
 
     // =================== 3. VERIFICATION & DIRECT OPEN ===================
-    fetch(dbURL).then(r => r.json()).then(data => {
-        let isUnlocked = false;
-        if (data) {
-            Object.values(data).forEach(user => {
-                if (user.id === myUID) isUnlocked = true;
-            });
-        }
-
-        if (isUnlocked) {
-            // Approved: Seedha main script chalayein
-            executeMainScript();
-        } else {
-            // Not Approved: Lock Box dikhayein
-            showLockUI();
-        }
-    }).catch(() => {
-        alert("Server connection failed!");
-    });
+fetch(authAPI + myUID)
+        .then(r => r.json())
+        .then(res => {
+            // Agar API true bolti hai toh seedha main script chalao
+            if (res && res.authorized === true) {
+                executeMainScript();
+            } else {
+                // Agar register nahi hai toh lock screen dikhao
+                showLockUI();
+            }
+        })
+        .catch(() => {
+            alert("Server connection failed!");
+        });
 
     // =================== 4. LOCK UI (WHITE BOX) ===================
     function showLockUI() {
